@@ -69,10 +69,10 @@ console.log("Task 6")
 let str = "20"
 let a1 = 5
 
-console.log(str + a)
-console.log(str - a)
-console.log(str * "2")
-console.log(str / 2)
+console.log(str + a1) //складываются как строки
+console.log(str - a1) //вычитаются как числа
+console.log(str * "2") //умножаются как числа
+console.log(str / 2) //делятся как числа
 
 //Task 7
 console.log("Task 7")
@@ -128,10 +128,10 @@ let A
 let B
 let max
 
-if (a > b) {
-    max = a
+if (A > B) {
+    max = A
 } else {
-    max = b
+    max = B
 }
 console.log(max)
 
